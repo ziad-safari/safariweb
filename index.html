@@ -9,7 +9,7 @@
     <script src="js/uikit.js"></script>
     <script src="js/uikit-icons.js"></script>
 
-    <title>Safariweb</title>
+    <title>safari.me</title>
 </head>
 <body>
     <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
@@ -21,9 +21,10 @@
 
         <ul class="uk-navbar-nav uk-light">
             <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#experience" uk-scroll>Experience</a></li>
             <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Projects</a></li>
-            <li><a class="uk-button-text uk-text-capitalize" href="" uk-scroll>Resume</a></li>
-            <li><a class="uk-button-text uk-text-capitalize" href="mailto:" uk-scroll>Contact</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="./assets/Resume.pdf" target="_blank">Resume</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="mailto:ziad.safari@gmail.com">Contact</a></li>
         </ul>
     </div>
 </nav>
@@ -33,7 +34,7 @@
     <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">Hello, I'm Ziad.</h1>
     <h2 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">Student of Mathematics and Computer Science at UWaterloo <br> Programmer & Designer<br> Artist & Musician <br>Gymgoer & Gamer </h2>
     <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About Me</a><br><br>
-<a href="" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="instagram"></a> &nbsp;<a href="" class="uk-light uk-button-text" uk-icon="dribbble"></a> &nbsp;<a href="" class="uk-button-text uk-light" uk-icon="github"></a> &nbsp;<a href="" class=" uk-light uk-button-text" uk-icon="linkedin"></a>
+<a href="mailto:ziad-safari1@gmail.com" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="mail"></a> &nbsp;<a href="" class="uk-light uk-button-text" uk-icon="dribbble"></a> &nbsp;<a href="" class="uk-button-text uk-light" uk-icon="github"></a> &nbsp;<a href="" class=" uk-light uk-button-text" uk-icon="linkedin"></a>
 
 </section>
 
@@ -67,18 +68,21 @@ I'm a third-year student at the University of Waterloo, majoring in Mathematics 
 <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
     <!-- Change all of this to ur projects -->
     <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-        <h4>Project Name</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h4>thepampurredkitty</h4>
+        <p>thepampurredkitty is a cat grooming service based in Edmonton Alberta. I entirely manage the website and booking services.</p>
         <a class="uk-button-text uk-text-decoration-none" href="">
             <span uk-icon="icon: link">
-            </span> Website Link </a>
+            </span> thepampurredkitty.com </a>
         </div>
         <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-            <h4>Project Name</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a class="uk-button-text uk-text-decoration-none" href="">
+            <h4>Wordle Clone</h4>
+            <p>Wordle Clone is a variation of Wordle I developed with React.js. It allows users to guess with 6, 7 and 8 letter words to shake up the game. It was architected using advanced state management solutions using Context API and hooks, and custom UI components inspired by Wordle's theme.</p>
+            <a class="uk-button-text uk-text-decoration-none" target="_blank" href="http://ziad-safari.github.io/Wordle-clone/">
                 <span uk-icon="icon: link">
-                </span> Website Link </a>
+                </span> Demo </a>
+            <a class="uk-button-text uk-text-decoration-none" target="_blank" href="https://www.github.com/ziad-safari/Wordle-clone">
+                <span uk-icon="icon: link"></span>Code
+            </a>
             </div></div>
 
 
@@ -87,9 +91,59 @@ I'm a third-year student at the University of Waterloo, majoring in Mathematics 
 
 
 </section>
-<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
 </div>
 <!-- Projects Section Ends -->
+<!-- Resume Experience Section -->
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+<section id="experience" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+    <h3 class="uk-margin-xlarge-left uk-light">Experience</h3>
+    <p class="uk-margin-xlarge-left">Here's what I've been up to professionally</p>
+
+    <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+        <!-- Experience Card 1 -->
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body" style="background-color: #181818;">
+            <h4 class="uk-text-white">Software Engineer — Chatsimple </h4>
+            <p class="uk-text-white">Sept 2023 - Dec 2023</p>
+            <ul class="uk-list uk-list-bullet uk-text-white">
+                <li>Implemented chatbot data analysis with OpenAI functional calling and few-shot prompting using Python and Flask, adopting the Pinecone vector database for intelligent retrieval of chatbot visitor data, decreasing churn rates by 20%</li>
+                <li>Reinvented chatbot widget (what you see at the bottom!) and analytics dashboard using Ant Design form components and React, focusing on reducing response time which resulted in improved customer retention and doubling paid subscribers</li>
+                <li>Architected AI chatbot integrations with CRM platforms like Salesforce and HubSpot, catapulting MRR by over 5x</li>
+                <li>Maintained deployments to multiple EC2 instances and managed S3 asset storage, optimizing build performance for over 20,000 users by compressing webpack bundles and leveraging layer caching when building docker images</li>
+            </ul>
+            <a class="uk-button-text uk-text-decoration-none" target="_blank" href="https://www.chatsimple.ai" style="color: white;">
+                <span uk-icon="icon: link"></span> Company Website
+            </a>
+        </div>
+    </div>
+    <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body" style="background-color: #181818;">
+            <h4 class="uk-text-white">Quality Engineer — TD Bank Group </h4>
+            <p class="uk-text-white">Jan 2023 - Apr 2023</p>
+            <ul class="uk-list uk-list-bullet uk-text-white">
+                <li>Automated detailed test scripts using Selenium, Rest Assured and JIRA, resulting in a 250-hour reduction in manual testing efforts within the automation team for debit card transactions</li>
+                <li>Uncovered and addressed 70+ defects during exploratory testing, resolving them in an average of 2 business days through collaboration with development teams</li>
+                <li>Revitalized the automation and execution of debit card API endpoint test cases, achieving 100% accuracy in CRUD operations through seamless integration with Bitbucket and Postman</li>
+            </ul>
+            <a class="uk-button-text uk-text-decoration-none" target="_blank" href="https://www.td.com" style="color: white;">
+                <span uk-icon="icon: link"></span> Company Website
+            </a>
+        </div>
+    </div>
+    <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body" style="background-color: #181818;">
+            <h4 class="uk-text-white">Frontend Developer — Wordn </h4>
+            <p class="uk-text-white">Jan 2023 - Apr 2023</p>
+            <ul class="uk-list uk-list-bullet uk-text-white">
+                <li>Revamped a multi-page React application, introducing sustainable, large-scale feature enhancements that slashed site-wide user task durations by 65% for over 800 clients</li>
+                <li>Championed mobile-friendly design principles and ensured cross-browser compatibility, yielding a significant uptick in client productivity through a highly intuitive interface</li>
+                <li>Optimized Redux store and streamlined state management, boosting application performance by more than 200%</li>
+            </ul>
+            <a class="uk-button-text uk-text-decoration-none" target="_blank" href="https://www.wordn.io/" style="color: white;">
+                <span uk-icon="icon: link"></span> Company Website
+            </a>
+        </div>
+    </div>
+</section>
 <chat-bot platform_id="d2bac597-1da1-457a-91b7-dc88aff532a1" user_id="53c43402-9d70-4e80-b965-9d8eb52d7635" chatbot_id="5ebc8a2c-bfa0-490a-9a2a-83dd4a81898b"></chat-bot><script src="https://cdn.chatsimple.ai/chat-bot-loader.js" defer></script>
 </body>
 </html>
